@@ -1,0 +1,311 @@
+DOCUMENTACIÓN DE PROMPTS — AGENCIA DE VIAJES ESPACIALES
+========================================================
+
+Este documento registra los prompts exactos entregados a la IA durante la
+sesión de trabajo. No incluye claves, credenciales ni información sensible.
+
+
+PROMPT 1 (tarea principal)
+--------------------------
+Texto completo como fue entregado a la IA:
+
+    # Proyecto: Agencia de Viajes Espaciales
+
+    Actúa como un desarrollador frontend especializado en HTML5, Tailwind CSS y diseño web responsivo.
+
+    Crea una landing page completa para una agencia ficticia de turismo espacial. El resultado debe tener una apariencia moderna, futurista y profesional, como si fuera una empresa real que ofrece viajes a diferentes destinos del sistema solar.
+
+    ## Tecnologías obligatorias
+    - HTML5 semántico.
+    - Tailwind CSS mediante CDN.
+    - JavaScript únicamente si resulta estrictamente necesario.
+    - Todo el proyecto debe funcionar desde un archivo `index.html`, sin frameworks adicionales, instalaciones ni configuraciones complejas.
+
+    ## Diseño visual
+    - Tema oscuro con una estética espacial y futurista.
+    - Fondo oscuro, textos claros y acentos en cian o violeta.
+    - Tipografía moderna, jerarquía visual clara y suficiente espacio entre elementos.
+    - Efectos sutiles al pasar el cursor sobre botones y tarjetas.
+    - Imágenes espaciales de alta calidad para representar los destinos.
+    - Diseño limpio, atractivo y coherente, evitando una apariencia genérica o excesivamente recargada.
+
+    ## Estructura de la página
+
+    ### 1. Header y navegación
+    - Crear un nombre original para la agencia y un logotipo textual.
+    - Incluir enlaces de navegación hacia Inicio, Destinos y Contacto.
+    - Utilizar Flexbox para distribuir los elementos.
+    - Adaptar el menú para dispositivos móviles sin provocar desbordamientos.
+
+    ### 2. Hero Section
+    - Crear un título principal llamativo relacionado con la exploración espacial.
+    - Añadir un subtítulo persuasivo que invite a viajar más allá de la Tierra.
+    - Incluir un botón principal de llamada a la acción que dirija a la sección de destinos.
+    - Utilizar una imagen o composición visual espacial como elemento destacado.
+    - Añadir detalles decorativos discretos que refuercen la temática futurista.
+
+    ### 3. Sección de destinos
+    Crear exactamente tres tarjetas con destinos turísticos espaciales:
+
+    - **Marte:** expediciones por paisajes rojizos, cañones y estaciones habitables.
+    - **Luna:** experiencias de baja gravedad y vistas espectaculares de la Tierra.
+    - **Europa:** una expedición futurista a la luna de Júpiter, presentada como una aventura ficticia de exploración.
+
+    Cada tarjeta debe incluir:
+    - Una imagen representativa.
+    - El nombre del destino.
+    - Una descripción breve y original.
+    - Un dato destacado, como duración estimada o tipo de experiencia, claramente presentado como información ficticia.
+    - Un botón o enlace para descubrir el destino.
+
+    Las tarjetas deben tener un diseño consistente, esquinas redondeadas, buena separación y efectos hover discretos.
+
+    ### 4. Footer
+    - Incluir el nombre de la agencia.
+    - Mostrar el año actual o el año de creación del proyecto.
+    - Añadir enlaces ficticios a Instagram, X y YouTube.
+    - Mantener la estética oscura y minimalista.
+
+    ## Requisitos de Tailwind CSS
+    Utiliza exclusivamente las clases de utilidad predeterminadas de Tailwind CSS, evitando escribir CSS personalizado salvo que sea imprescindible.
+
+    La paleta debe utilizar principalmente:
+    - `bg-slate-950` para el fondo.
+    - `text-slate-100` para los textos principales.
+    - `text-cyan-400` para los acentos.
+    - `bg-cyan-400` para los botones principales, con un color de texto que mantenga un contraste adecuado.
+    - `border-slate-800` para los bordes.
+
+    Puedes utilizar otras clases predeterminadas de Tailwind para mejorar el diseño.
+
+    ## Responsividad obligatoria
+    - Móviles: una columna para las tarjetas de destinos.
+    - Escritorio: tres columnas mediante `grid grid-cols-1 md:grid-cols-3`.
+    - Navbar adaptable a pantallas pequeñas.
+    - Imágenes responsivas y sin deformaciones.
+    - Evitar desplazamiento horizontal y elementos cortados.
+    - Utilizar Flexbox y Grid correctamente.
+
+    ## HTML semántico
+    Organiza el documento utilizando:
+    - `header`
+    - `nav`
+    - `main`
+    - `section`
+    - `article` para las tarjetas de destinos.
+    - `footer`
+
+    Incluye los atributos `alt` en las imágenes, enlaces con destinos válidos dentro de la página y una estructura de encabezados ordenada.
+
+    ## Uso obligatorio de IA
+    Al final del HTML, añade un comentario que documente brevemente:
+    - El nombre y eslogan generados para la agencia.
+    - La paleta de colores seleccionada.
+    - La decisión de diseño utilizada para resolver la adaptación de las tarjetas a móviles y escritorio.
+
+    No incluyas claves, credenciales ni información sensible.
+
+    ## Entrega y verificación
+    1. Crea el archivo `index.html` en el directorio actual del proyecto.
+    2. Escribe el código completo y funcional.
+    3. Comprueba que todas las secciones estén presentes y que los enlaces internos funcionen.
+    4. Verifica las clases responsivas y los atributos `alt`.
+    5. Evita dependencias innecesarias y no generes archivos adicionales si no son necesarios.
+    6. Si utilizas imágenes externas, emplea URL válidas y proporciona alternativas visuales adecuadas si alguna imagen no carga.
+
+    Entrega únicamente el archivo necesario para ejecutar la página y un resumen breve de las características implementadas. No reemplaces la implementación por una explicación teórica.
+
+
+PROMPT 2 (mejora de diseño, experiencia y responsividad)
+--------------------------------------------------------
+Texto completo como fue entregado a la IA:
+
+    # Mejora del proyecto: Agencia de Viajes Espaciales
+
+    Actúa como un desarrollador frontend senior especializado en HTML5, Tailwind CSS y diseño de interfaces modernas.
+
+    Analiza el archivo `index.html` existente y mejora significativamente su diseño visual, experiencia de usuario y responsividad. El objetivo es conseguir una landing page con apariencia profesional, inspirada en las páginas de empresas tecnológicas y proyectos de exploración espacial.
+
+    **IMPORTANTE:** No crees otro proyecto desde cero. Trabaja sobre la implementación existente, conserva sus requisitos académicos y mejora lo que realmente lo necesite.
+
+    ## 1. Diseño visual avanzado
+
+    - Utiliza una estética espacial cinematográfica, moderna y elegante.
+    - Mantén el modo oscuro con una combinación equilibrada de negro azulado, gris oscuro, blanco, cian y pequeños detalles violetas.
+    - Mejora la jerarquía visual, el tamaño de los títulos, los espacios, los márgenes y la alineación.
+    - Evita que la página parezca una plantilla genérica hecha únicamente con tarjetas.
+    - Introduce transparencias sutiles, bordes delicados, gradientes y efectos de iluminación donde aporten valor.
+    - Mantén un diseño limpio, con suficiente espacio en blanco y sin saturar la interfaz de elementos decorativos.
+
+    ## 2. Hero Section espectacular
+
+    Rediseña la sección principal para convertirla en el elemento visual más importante de la página.
+
+    - Utiliza una imagen espacial de gran impacto, preferiblemente un planeta con iluminación cinematográfica.
+    - Combina el texto y la imagen de forma equilibrada.
+    - Crea un título grande, con una tipografía moderna y una composición visual atractiva.
+    - Añade un eslogan memorable y una descripción breve que despierte interés.
+    - Incorpora un botón principal «Explorar destinos» y un segundo enlace opcional para conocer la experiencia.
+    - Añade pequeños detalles informativos, como una etiqueta «Turismo espacial de nueva generación».
+    - Evita que el contenido quede demasiado arriba, demasiado abajo o comprimido en pantallas pequeñas.
+
+    ## 3. Navbar profesional
+
+    - Mejora el logotipo textual y la presentación del nombre de la agencia.
+    - Alinea correctamente el menú con Flexbox.
+    - Añade efectos hover discretos a los enlaces.
+    - Mantén una navegación sencilla y legible.
+    - Si implementas un menú móvil desplegable, utiliza JavaScript mínimo y asegúrate de que funcione con teclado.
+    - No añadas botones que aparenten funcionar, pero que no tengan ninguna acción.
+
+    ## 4. Tarjetas de destinos mejoradas
+
+    Conserva exactamente tres destinos y transforma sus tarjetas para que resulten más atractivas.
+
+    Cada tarjeta debe incluir:
+    - Una imagen de alta calidad con proporciones consistentes.
+    - El nombre del planeta o destino.
+    - Una descripción breve y persuasiva.
+    - Un indicador visual del tipo de experiencia.
+    - Información ficticia claramente presentada como estimación de la agencia.
+    - Un enlace o botón funcional para conocer más detalles.
+
+    Mejoras visuales:
+    - Imágenes grandes y bien recortadas.
+    - Esquinas redondeadas y bordes sutiles.
+    - Gradientes oscuros sobre las imágenes cuando ayuden a la legibilidad.
+    - Efectos hover suaves, sin movimientos exagerados.
+    - Alturas consistentes y buena distribución del contenido.
+    - Una cuadrícula de una columna en móviles y tres columnas en escritorio mediante `grid grid-cols-1 md:grid-cols-3`.
+
+    ## 5. Añade una sección de valor diferencial
+
+    Entre el Hero y los destinos, o después de ellos, incorpora una sección breve que explique por qué elegir esta agencia.
+
+    Incluye tres ventajas, por ejemplo:
+    - Experiencias inmersivas.
+    - Viajes diseñados para cada explorador.
+    - Tecnología avanzada de navegación espacial.
+
+    Utiliza iconos sencillos, pequeños bloques informativos o una composición horizontal. Evita instalar bibliotecas de iconos o añadir dependencias innecesarias.
+
+    Esta sección debe complementar el proyecto, no hacerlo excesivamente largo.
+
+    ## 6. Añade una llamada a la acción final
+
+    Antes del footer, incorpora una sección visualmente atractiva con un mensaje que invite a planificar el próximo viaje espacial.
+
+    Incluye un botón funcional que dirija a la sección de destinos o a un formulario sencillo de contacto si realmente lo implementas.
+
+    No simules un sistema de reservas real ni solicites información personal innecesaria.
+
+    ## 7. Footer mejorado
+
+    - Organiza el contenido en columnas cuando haya espacio suficiente.
+    - Incluye el nombre de la agencia, una breve descripción y enlaces de navegación.
+    - Añade enlaces a redes sociales ficticias, diferenciándolos claramente de cuentas reales.
+    - Incluye el aviso de que los viajes y servicios son ficticios.
+    - Asegura que el footer se adapte correctamente a móviles.
+
+    ## 8. Animaciones y microinteracciones
+
+    Utiliza las utilidades de Tailwind para incorporar:
+    - Transiciones suaves.
+    - Cambios de color en botones.
+    - Efectos hover en tarjetas.
+    - Pequeñas animaciones de entrada únicamente cuando aporten valor.
+
+    Respeta `prefers-reduced-motion` para usuarios que prefieran reducir las animaciones. Evita animaciones constantes que distraigan, exceso de efectos luminosos y movimientos que afecten al rendimiento.
+
+    ## 9. Calidad técnica
+
+    Mantén obligatoriamente:
+    - HTML5 semántico.
+    - Tailwind CSS mediante CDN.
+    - Un único archivo `index.html`.
+    - Ausencia de frameworks adicionales.
+    - Clases predeterminadas de Tailwind siempre que sea posible.
+    - CSS personalizado únicamente cuando sea realmente necesario.
+    - JavaScript mínimo y funcional.
+
+    Mejora también:
+    - La estructura de encabezados.
+    - Los atributos `alt` de las imágenes.
+    - El contraste y la legibilidad.
+    - Los estados de foco del teclado.
+    - Los enlaces internos.
+    - La accesibilidad de los botones.
+    - El comportamiento en pantallas de diferentes tamaños.
+
+    No elimines las secciones obligatorias del proyecto original ni cambies a React, Vue, Angular u otros frameworks.
+
+    ## 10. Verificación final
+
+    Antes de terminar:
+
+    1. Examina el código actual y detecta sus problemas de diseño.
+    2. Modifica el archivo existente sin duplicar innecesariamente el contenido.
+    3. Comprueba que todas las secciones se encuentren en el orden correcto.
+    4. Verifica que los botones y enlaces tengan un comportamiento coherente.
+    5. Revisa las clases responsivas, las imágenes y el menú móvil.
+    6. Evita dependencias nuevas y elimina código innecesario que hayas sustituido.
+    7. Conserva los comentarios que documenten el uso de IA para la evaluación académica y actualízalos si cambias decisiones de diseño.
+    8. No afirmes que has probado visualmente la página si no has podido abrirla en un navegador.
+
+    **Resultado esperado:** una landing page considerablemente más atractiva, coherente y profesional que la versión actual, manteniendo su propósito educativo y todos los requisitos originales.
+
+    Realiza los cambios directamente en los archivos del proyecto y, al finalizar, proporciona un resumen breve de las mejoras implementadas y de cualquier problema que no hayas podido verificar.
+
+
+PROMPT 3 (documentación solicitada)
+-----------------------------------
+Texto completo como fue entregado a la IA:
+
+    Un breve documento de texto (o en la entrega de la plataforma) que incluya los prompts exactos que le dieron a la IA para completar el ejercicio.
+
+========================================================
+Fin del documento.
+
+
+  ============================================================================
+  DOCUMENTACIÓN DE DISEÑO (asistido por IA)
+  ============================================================================
+  · Nombre de la agencia: Órbita Cero
+    Eslogan: "Tu próximo destino está fuera de este mundo" (T1) y
+    "Viajes más allá de lo conocido" (claim de footer).
+    Propuesta: turismo espacial de autor con expediciones a Marte, la Luna y
+    Europa (luna de Júpiter). Duraciones estimadas (26 meses, 7 días y 6 años)
+    presentadas siempre como "estimación de la agencia · dato ficticio".
+
+  · Paleta de colores:
+    - bg-slate-950        → fondo principal (negro azulado espacial).
+    - text-slate-100      → textos principales, text-slate-300/400/500 para
+                            jerarquía secundaria y notas.
+    - text-cyan-400       → acento primario (enlaces, valores, badges).
+    - bg-cyan-400         → botones principales con text-slate-950 (contraste AA).
+    - violet-400/300      → acento secundario (Europa, degradado del titular).
+    - border-slate-800    → bordes y separadores sutiles.
+
+  · Decisión responsive de las tarjetas:
+    La cuadrícula usa `grid grid-cols-1 gap-8 md:grid-cols-3`. En móvil las
+    tarjetas se apilan en una columna; en `md` pasan a tres columnas iguales.
+    Cada tarjeta es un `article` con `flex flex-col` y `flex-1` en la
+    descripción, asegurando alturas de contenido consistentes. El menú móvil
+    usa un botón con atributos ARIA + el atributo `hidden`, controlado por
+    JavaScript mínimo (toggle, Escape y cierre al navegar), accesible por
+    teclado. Las imágenes usan `object-cover` con overlay de gradiente para la
+    legibilidad, sin deformaciones ni scroll horizontal.
+
+  · Mejoras de la versión 3 (rediseño):
+    - Hero cinematográfico con etiquetas informativas, eslogan, datos rápidos
+      marcados como ficticios y composición visual con tarjetas flotantes.
+    - Nueva sección de valor diferencial (#valores) con iconos SVG propios.
+    - CTA final (#contacto) con botones funcionales (mailto y anclas reales).
+    - Footer en columnas con navegación, destino y redes ficticias marcadas.
+    - Animaciones de entrada (IntersectionObserver) desactivadas con
+      prefers-reduced-motion. Foco visible uniforme (.focus-ring).
+
+  · Nota: la imagen de Europa proviene del artículo de BBC Mundo y es una
+    fotografía de la sonda Galileo (NASA/JPL, dominio público). No se incluyen
+    claves, credenciales ni información sensible.
+  ============================================================================
